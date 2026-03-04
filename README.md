@@ -7,7 +7,8 @@
 簡述: 因硬體無法應付龐大的搜尋空間，透過閱讀論文後導入 SDS (Sum of Difference Sets) 理論架構縮小候選範圍，並優化通訊系統 PAPR 表現
 
 -PACP/PQCP Sequence
-目標: 針對特定長度 N 無法取得完美 PCP 之限制，轉而搜尋 PACP(Periodic Almost Complementary Pair) 與 PQCP (Periodic Quasi-Complementary Pair)  序列，以增加系統設計彈性
+目標: 針對特定長度 N 無法取得完美 PCP 之限制，轉而搜尋 PACP(Periodic Almost Complementary Pair) 
+與 PQCP (Periodic Quasi-Complementary Pair)  序列，以增加系統設計彈性
 簡述: 利用序列的對稱性和等價進行剪枝（Pruning），並設定最大相關值門檻以提前排除不符條件之候選序列，再進行平行化運算以提升搜尋效率
 
 
